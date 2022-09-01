@@ -15,7 +15,7 @@ void File(){
 }
 
 void Solve(){
-    int n,a[n],b[n], first=0, second=0, counter=0;
+    int nm,n,a[n],b[n], first=0, second=0, counter=0;
     map<int,bool>mp;
     cin>>n;
     for (int i = 0; i < n; ++i) {
