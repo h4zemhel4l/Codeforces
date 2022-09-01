@@ -15,7 +15,7 @@ void File(){
 }
 
 void Solve(){
-    int n, a[n], b[n], first=0, second=0, counter=0;
+    int n,a[n],b[n], first=0, second=0, counter=0;
     map<int,bool>mp;
     cin>>n;
     for (int i = 0; i < n; ++i) {
@@ -26,7 +26,7 @@ void Solve(){
         cin>>b[i];
     }
 
-    for (int i = 0; i < n; ++i) {
+    while(first!=n-1) {
         if(mp[a[first]]){
             if(a[first]==b[second]){
                 mp[b[second]]=false;
